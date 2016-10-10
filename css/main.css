@@ -1,0 +1,145 @@
+.screen_light {
+  position: relative;
+}
+.screen_light header {
+  position: absolute;
+  top: 10px;
+  width: 295px;
+}
+.screen_light header ul {
+  background: #fff;
+  width: 295px;
+  display: -webkit-box;
+}
+.screen_light header ul li {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  box-flex: 1;
+  height: 20px;
+  line-height: 20px;
+  letter-spacing: 6px;
+  font-size: 12px;
+}
+.screen_light header ul li:nth-child(1),
+.screen_light header ul li:nth-child(3) {
+  cursor: pointer;
+}
+.screen_light header ul li:nth-child(1) {
+  text-align: left;
+}
+.screen_light header ul li:nth-child(2) {
+  text-align: center;
+  -webkit-box-flex: 12;
+  -moz-box-flex: 12;
+  -ms-box-flex: 12;
+  box-flex: 12;
+}
+.screen_light header ul li:nth-child(3) {
+  text-align: right;
+}
+.screen_light .content {
+  width: 92%;
+  padding: 10px 4%;
+  overflow-x: hidden;
+  background: #eee;
+  color: #333;
+  overflow: auto;
+  height: 450px;
+}
+.screen_light .content p {
+  text-indent: 24px;
+  margin: 20px 0;
+}
+.screen_light .content::-webkit-scrollbar {
+  width: 8px;
+}
+.screen_light .content::-webkit-scrollbar-track {
+  background-color: #808080;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+}
+.screen_light .content::-webkit-scrollbar-thumb {
+  background-color: #000;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+}
+.screen_light .setmenu {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 295px;
+  background-color: #fff;
+  z-index: 2;
+}
+.screen_light .setmenu div {
+  width: 100%;
+  margin-top: 15px;
+}
+.screen_light .setmenu div a {
+  display: block;
+  float: left;
+  width: 40%;
+  font-size: 22px;
+  text-align: center;
+  margin: 2px 5%;
+  border: 1px solid #333333;
+  box-sizing: border-box;
+}
+.screen_light .setmenu ul {
+  width: 85%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.screen_light .setmenu ul li {
+  float: left;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #eee;
+  border-radius: 100px;
+  box-sizing: border-box;
+  margin: 10px 5%;
+}
+.screen_light .setmenu ul li:nth-child(1) {
+  background-color: #ed1c24;
+}
+.screen_light .setmenu ul li:nth-child(2) {
+  background-color: #b97a57;
+}
+.screen_light .setmenu ul li:nth-child(3) {
+  background-color: #7092be;
+}
+.screen_light .setmenu ul li:nth-child(4) {
+  background-color: #ffaec9;
+}
+.screen_light .setmenu ul li:nth-child(5) {
+  background-color: #fff200;
+}
+.screen_light .setmenu ul li:nth-child(6) {
+  background-color: #efe4b0;
+}
+.screen_light footer {
+  position: absolute;
+  background: #fff;
+  width: 295px;
+  bottom: 5px;
+  z-index: 1;
+}
+.screen_light footer ul {
+  width: 295px;
+}
+.screen_light footer ul li {
+  width: 20%;
+  border: 2px solid #eee;
+  box-sizing: border-box;
+  height: 20px;
+  line-height: 20px;
+  letter-spacing: 10px;
+  text-align: center;
+  font-size: 14px;
+  float: left;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
